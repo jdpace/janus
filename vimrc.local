@@ -1,0 +1,13 @@
+" Map jj to escape
+imap jj <Esc>
+
+" Show invisibles
+set list
+set listchars=tab:▸\ ,trail:·
+
+" \W - remove trailing whitespace
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+" Color profile
+set t_Co=256
+color xoria256
