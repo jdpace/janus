@@ -1,3 +1,5 @@
-color molokai
+set background=dark
+colorscheme solarized
+
 set guioptions=aAce
 set guifont=Mensch-Regular:h14

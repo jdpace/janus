@@ -213,6 +213,9 @@ end
 vim_plugin_task "vwilight" do
   sh "curl https://gist.github.com/raw/796172/724c7ca237a7f6b8d857c4ac2991cfe5ffb18087/vwilight.vim > colors/vwilight.vim"
 end
+vim_plugin_task "solarized" do
+  sh "curl https://github.com/altercation/vim-colors-solarized/raw/master/colors/solarized.vim > colors/solarized.vim"
+end
 
 if File.exists?(janus = File.expand_path("~/.janus.rake"))
   puts "Loading your custom rake file"
